@@ -1,0 +1,14 @@
+<apex:page controller="mycontroller" tabstyle="account" showHeader="false" sidebar="false">
+
+
+<chatter:feedWithFollowers entityId="{!acct.Id}"/>
+<apex:form >
+ <apex:pageblock >
+     <apex:pageblocksection >
+         <apex:outputText value="{!acct.Name}" id="Name"/>
+         <apex:outputLabel value="{!$ObjectType.Account.fields.Active__c.inlineHelpText}" />
+         </apex:pageblocksection>
+         </apex:pageblock>
+         <apex:inputtext value="{!acct.Hello__c}" maxlength="3"/>
+         </apex:form>
+</apex:page>

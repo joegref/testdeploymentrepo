@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>MyHelloWorld</members>
+        <members>mycontroller</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>mypage</members>
+        <members>mypage2</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>helloWorldAccountTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Account.Active__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>31.0</version>
+</Package>
